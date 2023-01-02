@@ -1,0 +1,66 @@
+@import "@servicenow/sass-kit/host";
+.main-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fcfcfc;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+}
+.tweet-component {
+  width: 30em;
+  min-width: 25em;
+  background: #fff;
+  margin-top: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+.avator {
+  border-radius: 100px;
+  width: 3em;
+  margin-right: 1em;
+}
+.tweet-container {
+  font-size: 0.875em;
+  max-width: 490px;
+  margin: 0 auto;
+  padding: 0.625em;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: flex-start;
+  .tweet-heading {
+    font-weight: bold;
+  }
+  .tweet-post {
+    font-weight: normal;
+    margin-top: 5px;
+  }
+}
+
+.tweet-id {
+  color: #657786;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.tweet-image {
+  margin-left: 4em;
+}
+.tweet-body {
+  font-size: 14px;
+  padding: 10px;
+}
+.tweet-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2.875em;
+  margin-top: 0.5em;
+}

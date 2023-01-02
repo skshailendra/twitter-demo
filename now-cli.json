@@ -1,0 +1,18 @@
+{
+  "development": {
+    "proxy": {
+      "origin": "http://localhost:8081/",
+      "port": 8081,
+      "proxies": ["/api"]
+    }
+  },
+  "styles": {
+    "themes": [
+      {
+        "module": "@servicenow/sass-theme",
+        "main": ["theme.scss"],
+        "copyFiles": ["type/*", "*.scss"]
+      }
+    ]
+  }
+}

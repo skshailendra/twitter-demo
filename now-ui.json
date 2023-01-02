@@ -1,0 +1,15 @@
+{
+  "components": {
+    "x-956727-tweets-demo1": {
+      "innerComponents": ["now-input", "now-card"],
+      "uiBuilder": {
+        "associatedTypes": ["global.core", "global.landing-page"],
+        "label": "My Component",
+        "icon": "document-outline",
+        "description": "A description of my component",
+        "category": "primitives"
+      }
+    }
+  },
+  "scopeName": "x_956727_shailen_2"
+}
