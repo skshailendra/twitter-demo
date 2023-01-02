@@ -1,4 +1,3 @@
-import { actionTypes } from "@servicenow/ui-core";
 import { createHttpEffect } from "@servicenow/ui-effect-http";
 import {
 	REST_URL,
@@ -9,6 +8,7 @@ import {
 	SEARCH_REQUESTED,
 } from "./constant";
 
+// Dispatch Actions for API Calling
 export default {
 	[SEARCH_REQUESTED]: ({ dispatch, updateState, action }) => {
 		const {

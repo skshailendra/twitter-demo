@@ -1,5 +1,6 @@
 import { SEARCH_REQUESTED } from "./constant";
 import "@servicenow/now-icon";
+// Calculate Date Format
 const getDateFunction = (date) => {
 	const newDate = new Date(date);
 	const monthList = [
@@ -20,6 +21,8 @@ const getDateFunction = (date) => {
 	let dateIn = newDate.getDate();
 	return dateIn + month;
 };
+
+// View Components for Tweets Demo
 const view = (state, { dispatch, updateState }) => {
 	const { data, includes } = state;
 	const { media, users } = includes;

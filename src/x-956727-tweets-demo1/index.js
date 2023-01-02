@@ -4,9 +4,9 @@ import styles from "./styles.scss";
 import "@servicenow/now-input";
 import "@servicenow/now-card";
 import view from "./view";
-import { CARDS } from "./constant";
 import { RESPONSE } from "./responseJson";
 import actionHandlers from "./actionHandler";
+// Custom Components for Tweets using Response from Tweets
 createCustomElement("x-956727-tweets-demo1", {
 	renderer: { type: snabbdom },
 	view,
